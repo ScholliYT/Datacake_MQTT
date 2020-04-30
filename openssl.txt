@@ -1,0 +1,4 @@
+openssl s_client -showcerts -connect mqtt.datacake.co:8883 
+openssl s_client -showcerts -connect mqtt.datacake.co:8883 | sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p'
+openssl s_client -connect mqtt.datacake.co:8883 -showcerts < /dev/null 2>/dev/null   | openssl x509 -in /dev/stdin -sha1 -noout -fingerprint   
+openssl s_client -connect mqtt.datacake.co:8883 -showcerts 2>&1 < /dev/null | sed -n '/-----BEGIN/,/-----END/p'
