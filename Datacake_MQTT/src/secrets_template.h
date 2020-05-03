@@ -13,7 +13,7 @@ const char MQTT_SUB_TOPIC[] = "device/monitorstate";
 const char MQTT_PUB_TOPIC[] = "device/updatestate";
 
 // Root CA certificate of the MQTT Entpoint
-const char *local_root_ca =
+const char *root_ca =
     "-----BEGIN CERTIFICATE-----\n"
     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\n"
     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\n"
