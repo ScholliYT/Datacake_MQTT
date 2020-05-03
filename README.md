@@ -1,6 +1,6 @@
 # Datacake MQTT
 
-This repository shows an implementation to connect an ESP32 to the [Datacake](https://datacake.co/) MQTT Broker.
+This repository shows an implementation to connect an ESP32 to the [Datacake](https://datacake.co/) MQTT Broker using a secured MQTTS connection.
 
 ## Setup
 ### Hardware
