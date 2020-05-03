@@ -2,6 +2,10 @@
 
 This repository shows an implementation to connect an ESP32 to the [Datacake](https://datacake.co/) MQTT Broker using a secured MQTTS connection.
 
+![datacake_esp32_mqtt.gif](ESP32 demo gif)
+
+The button publishes to a mqtt topic which the led is listening to.
+
 ## Setup
 ### Hardware
 - Connect a pushbutton to ESP32 Pin 34 with a pull-down resitor
