@@ -15,5 +15,5 @@ The project was made with [PlatfromIO](https://platformio.org/), but you can sti
 - make a copy of `src/secrets_template.h` to `secrets.h`
 - Fill in your WiFi credentials
 - Get your [Access Token](https://docs.datacake.de/mqtt/mqtt) and place it into `MQTT_USER` and `MQTT_PASS`
-- Get your MQTT Topics as described in the datacake [docs](https://docs.datacake.de/mqtt/mqtt#topic-structure) and place them into `MQTT_SUB_TOPIC` and `MQTT_PUB_TOPIC`
+- Get your MQTT Topics as described in the [Datacake docs](https://docs.datacake.de/mqtt/mqtt#topic-structure) and place them into `MQTT_SUB_TOPIC` and `MQTT_PUB_TOPIC`
   - make sure you append `/BUTTONVALUE` to the end of these topics
