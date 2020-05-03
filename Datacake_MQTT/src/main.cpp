@@ -114,7 +114,6 @@ void loop() {
 
     mqttClient.loop();
 
-    // TODO: Unbounce button
     bool button = digitalRead(BUTTON_PIN);
     if (button != buttonLastState) {
         buttonLastState = button;
